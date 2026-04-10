@@ -1,26 +1,35 @@
 # Rashmika Store
 
-This is a simple Laravel project for Rashmika Store.
-
-It is used to manage products and show a basic store-style website built with Laravel.
+Rashmika Store is a simple Laravel project for managing products and showing a basic store-style website.
 
 ## Features
 
 - Product listing
-- Simple Laravel layout
 - Basic store pages
+- Simple Laravel layout
+
+## Setup
+
+1. Install PHP dependencies.
+2. Install frontend dependencies.
+3. Copy the environment file and configure your app.
+4. Run the database migrations.
+5. Start the Laravel server.
+
+## Configuration
+
+Update the `.env` file with your local settings before running the app. The main values to check are:
+
+- App name and app URL
+- Database name, username, and password
+- Mail settings if you want email features later
+
+If you change the frontend files, run the frontend build command again so the changes appear in the browser.
 
 ## Demo Recording
 
 [Watch the recording on Google Drive](https://drive.google.com/file/d/1ncui8HD-N97I86gk4jBBSebBKgtHBauR/view?usp=sharing)
 
-## How To Run
-
-1. Install dependencies with `composer install` and `npm install`.
-2. Copy `.env.example` to `.env` and set your database details.
-3. Run migrations with `php artisan migrate`.
-4. Start the app with `php artisan serve`.
-
 ## Note
 
-The recording is 94 MB, so it is better to keep it on Google Drive instead of uploading it directly to the GitHub repo.
+The video is 94 MB, so it is better to keep it on Google Drive instead of uploading it directly to the GitHub repo. If you want to store it in GitHub, use Git LFS.
